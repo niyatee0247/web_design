@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product Card - Laptop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="product-card">
+      <div class="product-image">
+        <!-- Replace laptop.jpg with your image filename or URL -->
+        <img src="laptop.jpg" alt="Silver laptop front view" />
+      </div>
+
+      <div class="product-info">
+        <h2 class="product-title">UltraBook Pro 14"</h2>
+        <p class="product-desc">Lightweight, 16GB RAM, 512GB SSD — ideal for students & professionals.</p>
+
+        <div class="product-meta">
+          <span class="price">₹59,999</span>
+          <button id="add-cart" class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // optional small behavior to confirm the button press
+    document.getElementById('add-cart').addEventListener('click', function () {
+      alert('Added "UltraBook Pro 14\"" to cart — ₹59,999');
+    });
+  </script>
+</body>
+</html>
