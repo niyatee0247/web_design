@@ -1,36 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Product Card - Laptop</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card - Mobile</title>
+  <link rel="stylesheet" href="classtesst.css">
 </head>
 <body>
-  <main class="page">
-    <section class="product-card">
-      <div class="product-image">
-        <!-- Replace laptop.jpg with your image filename or URL -->
-        <img src="laptop.jpg" alt="Silver laptop front view" />
-      </div>
 
-      <div class="product-info">
-        <h2 class="product-title">UltraBook Pro 14"</h2>
-        <p class="product-desc">Lightweight, 16GB RAM, 512GB SSD — ideal for students & professionals.</p>
+  <div class="product-card">
+    <img src="mobile.jpg" alt="Smartphone Image" class="product-image">
 
-        <div class="product-meta">
-          <span class="price">₹59,999</span>
-          <button id="add-cart" class="btn">Add to Cart</button>
-        </div>
-      </div>
-    </section>
-  </main>
+    <h2 class="product-title">SmartPhone X200</h2>
+    <p class="product-description">
+      6.7" Display • 8GB RAM • 128GB Storage • 5000mAh Battery
+    </p>
 
-  <script>
-    // optional small behavior to confirm the button press
-    document.getElementById('add-cart').addEventListener('click', function () {
-      alert('Added "UltraBook Pro 14\"" to cart — ₹59,999');
-    });
-  </script>
+    <p class="product-price">₹24,999</p>
+    <button class="add-btn">Add to Cart</button>
+  </div>
+
 </body>
 </html>
