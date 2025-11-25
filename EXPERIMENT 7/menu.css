@@ -1,10 +1,10 @@
-/* General styling */
+
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
 
-/* Block Example */
+
 .block-menu a {
   display: block;
   background-color: #3498db;
@@ -14,7 +14,7 @@ body {
   text-decoration: none;
 }
 
-/* Inline Example */
+
 .inline-menu a {
   display: inline;
   background-color: #24f544;
@@ -24,7 +24,6 @@ body {
   text-decoration: none;
 }
 
-/* Inline-Block Example */
 .inline-block-menu a {
   display: inline-block;
   background-color: #9b59b6;
@@ -36,7 +35,6 @@ body {
   text-decoration: none;
 }
 
-/* Float Example */
 .float-menu a {
   float: right;
   background-color: #e67e22;
@@ -46,9 +44,8 @@ body {
   text-decoration: none;
 }
 
-/* Clear Example */
 .clear-example {
-  clear: both;       /* This stops floating elements */
+  clear: both;       
   background-color: #f4f4f4;
   padding: 10px;
   margin-top: 20px;
